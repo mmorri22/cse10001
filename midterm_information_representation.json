@@ -14,7 +14,7 @@
                 "feedback": "Incorrect. Please review the process of converting integers to binary."
             }
         ]
-    }
+    },
     {
         "question": "What is the binary representation of 85?",
         "type": "numeric",
