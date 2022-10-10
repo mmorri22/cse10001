@@ -63,7 +63,7 @@
         "answers": [
             {
                 "answer": "4",
-                "correct": true,
+                "correct": false,
                 "feedback": "Correct."
             },
             {
@@ -76,7 +76,7 @@
             },
             {
                 "answer": "1",
-                "correct": false,
+                "correct": true,
             },
             {
                 "answer": "3",
