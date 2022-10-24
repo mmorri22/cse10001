@@ -1,0 +1,51 @@
+/* Comments inside CSS are similar to C syntax */
+
+h1 {
+    color:red; 
+    font-size:52px;
+    text-align: center;
+}
+
+/*
+#ndblue {
+    text-align: center;
+    color: #0C2340;
+}
+
+#ndgold {
+    text-align: left;
+    color: #C99700;
+}
+
+#ndgreen {
+    text-align: right;
+    color: #00843D;
+}
+
+// CSS Class Selector //
+.center {
+    text-align: center;
+    color: #0C2340;
+}
+
+.right {
+    text-align: right;
+    color: #C99700;
+}   
+
+.left {
+    text-align: left;
+    color: #00843D;
+}  
+
+.headline {
+    font-size: 48pt;
+}
+
+.center_and_bold {
+    font-size: 38pt;
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+}
+*/
