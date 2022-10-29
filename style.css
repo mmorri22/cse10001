@@ -1,12 +1,10 @@
 /* Comments inside CSS are similar to C syntax */
 
 h1 {
-    color:red; 
     font-size:52px;
     text-align: center;
 }
 
-/*
 #ndblue {
     text-align: center;
     color: #0C2340;
@@ -22,7 +20,7 @@ h1 {
     color: #00843D;
 }
 
-// CSS Class Selector //
+/* CSS Class Selectors */
 .center {
     text-align: center;
     color: #0C2340;
@@ -39,13 +37,13 @@ h1 {
 }  
 
 .headline {
-    font-size: 48pt;
+    font-size: 40pt;
+    color: #0C2340;
 }
 
 .center_and_bold {
-    font-size: 38pt;
+    font-size: 25pt;
     text-align: center;
-    color: red;
+    color: #00843D;
     text-decoration: underline;
 }
-*/
