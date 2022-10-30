@@ -7,7 +7,7 @@
     
         <!-- Title Provided -->
         <title>Lecture 19 CSS Example - Style Sheet on New Page</title>
-        
+
         <!-- 1) We will add a *style* tag here, and then put some basic selectors -->
         <!-- They are key-value pairs, just like dicts in Python -->
         <!-- For example, 
@@ -18,37 +18,65 @@
         -->
         <style>
         
+          /* header{
+            font-size: large; 
+            text-align: center;
+          }
+          
+          main{
+            font-size: medium; 
+            text-align: center;           
+          }
+          
+          footer{
+            font-size: small; 
+            text-align: center;  
+          } */
+          
           /* 2) We will now comment out the selectors using a different comment formate and replace with class selectors */
           /* Since CSS and HTML are different "languages", if you mix commenting formats, the page will not work */
-
+          .centered{
+            text-align: center; 
+          }
+          
+          .large{
+            font-size: large; 
+          }
+          
+          .medium{
+            font-size: medium; 
+          }
+          
+          .small{
+            font-size: small; 
+          }
           
           
           /* 5) Now we will create a .right wih text-align: right; to see what happens when we right align the main class */
-
-        
+          .right{
+            text-align: right; 
+          }
+                  
         </style>
-        
         
     </head>
     
-    
     <!-- 4) We can add class="centered" here to make things even simpler -->
-    <body>  
+    <body class="centered">  
     
-
         <!-- 3) Now we can add the class selector values here -->
-        <!-- Example class = "centered large" -->    
-        <header>
+        <!-- Example class="large" -->
+        <header class="centered large">
             The Home Page of Fr. Theodore Hesbergh
         </header>
         
         <!-- 5) We will update this to "medium right" to show the change -->
-        <main>
+        <main class="medium right">
             Welcome to the CSS Page!
         </main>
         
         
-        <footer>
+        <footer class="small">
             Copyright  &#169; Theodore Hesbergh
         </footer>
     </body>
