@@ -1,0 +1,38 @@
+/* header{
+font-size: large; 
+text-align: center;
+}
+
+main{
+font-size: medium; 
+text-align: center;           
+}
+
+footer{
+font-size: small; 
+text-align: center;  
+} */
+
+/* 2) We will now comment out the selectors using a different comment formate and replace with class selectors */
+/* Since CSS and HTML are different "languages", if you mix commenting formats, the page will not work */
+.centered{
+text-align: center; 
+}
+
+.large{
+font-size: large; 
+}
+
+.medium{
+font-size: medium; 
+}
+
+.small{
+font-size: small; 
+}
+
+
+/* 5) Now we will create a .right wih text-align: right; to see what happens when we right align the main class */
+.right{
+text-align: right; 
+}
