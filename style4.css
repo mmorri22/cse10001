@@ -31,21 +31,16 @@ h1 {
   background-color: #00843D;
 }
 
+.bgwhite{
+  background-color: #FFFFFF;
+}
+
 /* Combine multiple styles into one class */
 .center_and_bold {
     font-size: 25pt;
     text-align: center;
     color: orange;
     text-decoration: underline;
-}
-
-/* CSS Class Selectors */
-.centered {
-    text-align: center;
-}  
-
-.headline {
-    font-size: 44pt;
 }
 
 .textndblue{
@@ -70,4 +65,42 @@ h1 {
 
 .textblack{
     color: #000000;	
+}
+
+/* CSS Class Selectors */
+.centered {
+    text-align: center;
+}  
+
+.headline {
+    font-size: 44pt;
+}
+
+/* For the table */
+table {
+  font-family: arial, sans-serif;
+  border: "1";
+}
+
+th {
+  border: 1px solid #ff0000;
+  background-color: #0000ff;
+  text-align: center;
+  padding: 8px;
+}
+
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+  color: #0C2340;
+  background-color: #aaaaaa;
 }
