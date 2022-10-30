@@ -4,10 +4,7 @@
 /* color is the default attribute for the text */
 /* background-color is the background color */
 /* Also, at the colors link, notice that the RGB has a ; after it. This is for ease of copy and past in CSS  https://teamcolorcodes.com/notre-dame-colors/#:~:text=The%20Notre%20Dame%20Fighting%20Irish%20colors%20RGB%20codes%20are%20(12,61)%20for%20Irish%20green%20colour. */
-body{
-	color: #C99700;
-	background-color: #0C2340;
-}
+
 
 .centered{
   text-align: center; 
