@@ -1,0 +1,73 @@
+/* Comments inside CSS are similar to C syntax */
+
+body{
+	color: #C99700;
+	background-color: #0C2340;
+}
+
+h1 {
+	color: #C99700;
+  font-size:77px;
+  text-align: center;
+}
+
+.alignright{
+  text-align: right;
+}
+
+.bgcyan{
+  background-color: cyan;
+}
+
+.bgndblue{
+  background-color: #0C2340;
+}
+
+.bgndgold{
+  background-color: #C99700;
+}
+
+.bgndgreen{
+  background-color: #00843D;
+}
+
+/* Combine multiple styles into one class */
+.center_and_bold {
+    font-size: 25pt;
+    text-align: center;
+    color: orange;
+    text-decoration: underline;
+}
+
+/* CSS Class Selectors */
+.centered {
+    text-align: center;
+}  
+
+.headline {
+    font-size: 44pt;
+}
+
+.textndblue{
+    color: #0C2340;	
+}
+
+.textndgold {
+    color: #C99700;
+}
+
+.textndgreen {
+    color: #00843D;	
+}
+
+.textred{
+    color: red;	
+}
+
+.textwhite{
+    color: #FFFFFF;	
+}
+
+.textblack{
+    color: #000000;	
+}
