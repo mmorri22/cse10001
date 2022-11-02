@@ -1,0 +1,351 @@
+/* Import Google Fonts For Use on the Page */
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Nunito&display=swap');
+
+/* We will implement the Universal Selector '*' */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+input,
+button,
+textarea {
+    font: inherit;
+}
+
+/* || VARIABLES */
+
+:root {
+    /* FONTS */
+    --FF: "Nunito", sans-serif;
+    --FF-HEADINGS: "Fugaz One", cursive;
+    
+    /* This will be used for the Font Size */
+    /* clamp middle value within a range of values between a defined minimum bound and a maximum bound */
+    /* Here, we are considering that the font-size of this text varies depending on the base font of the page, and the size of the viewport. */
+    --FS: clamp(16px, 2.2vh, 24px);
+
+    /* COLORS */
+    
+    /* Background Color - At the top, it is Notre Dame Blue */
+    --BGCOLOR: #0C2340;
+    /* At the botom, it fades to Notre Dame Gold - using rgb(r,g,b) as an example */
+    --BGCOLOR-FADE: rgb(201, 151, 0);
+    
+    /* Set the fade: linear-gradient to bottom, starts at --BGCOLOR and ends at --BGCOLOR-FADE */
+    --BGIMAGE: linear-gradient(to bottom, var(--BGCOLOR), var(--BGCOLOR-FADE));
+    
+    /* Will be used to set the internal frame to pure ND Gold, using HEX as the color */
+    --BODY-BGCOLOR: #C99700;
+    --BORDER-COLOR: #333;
+
+    /* The base font color will be black */
+    --FONT-COLOR: #000;
+    
+    /* The header background will initially be black */
+    --HEADER-BGCOLOR: #000;
+    
+    /* The header font color will initially be white */
+    --HEADER-COLOR: #FFF;
+    
+    /* For the drop down animation, the background color will be Notre Dame Green */
+    --HERO-BGCOLOR: rgb(10, 134, 61);
+    /* For the drop down animation, the font color will be White */
+    --HERO-COLOR: #FFF;
+    
+    /* Color for text in Menu - Notre Dame Green*/
+    --HIGHLIGHT-COLOR: rgb(10, 134, 61);
+    
+    /* Hyperlinks will be Notre Dame Blue */
+    --LINK-COLOR: #0C2340;
+    
+    /* If you single-click and hold any link, you will see it turn to Notre Dame Green */
+    --LINK-ACTIVE: #00843D;
+    
+    /* Hover over the link */
+    --LINK-HOVER: #FF1493;
+    
+    /* The top navigation will have a white background */
+    --NAV-BGCOLOR: #FFF;
+
+    /* BORDERS */
+    --BORDERS: 1px solid var(--BORDER-COLOR);
+    --BORDER-RADIUS: 15px;
+
+    /* STANDARD PADDING */
+    --PADDING-TB: 4px;
+    --PADDING-SIDE: 2.5%;
+
+    /* STANDARD MARGIN */
+    --MARGIN: clamp(16px, 2.5vh, 24px) 0;
+}
+
+.indent {
+    margin-left: 30px;
+}
+
+/* || UTILITY CLASSES */
+.offscreen {
+    position: absolute;
+    left: -10000px;
+}
+
+/* The white-space property specifies how white-space inside an element is handled */
+.nowrap {
+    white-space: nowrap;
+}
+
+.center {
+    text-align: center;
+}
+
+/* || GENERAL STYLES */
+
+html {
+    scroll-behavior: smooth;
+    font-size: var(--FS);
+    font-family: var(--FF);
+    background-color: var(--BGCOLOR);
+    background-image: var(--BGIMAGE);
+}
+
+body {
+    background-color: var(--BODY-BGCOLOR);
+    color: var(--FONT-COLOR);
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    border-left: var(--BORDERS);
+    border-right: var(--BORDERS);
+    box-shadow: 0 0 10px var(--BORDER-COLOR);
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--FF-HEADINGS);
+    letter-spacing: 0.1em;
+}
+
+h2,
+h3 {
+    margin-bottom: 1em;
+    color: var(--HIGHLIGHT-COLOR);
+}
+
+p {
+    line-height: 1.5;
+}
+
+a:any-link {
+    color: var(--LINK-COLOR);
+}
+
+a:hover,
+a:focus-visible {
+    color: var(--LINK-HOVER);
+}
+
+a:active {
+    color: var(--LINK-ACTIVE);
+}
+
+/* || HEADER */
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.header_h1 {
+    text-align: center;
+    background-color: var(--HEADER-BGCOLOR);
+    color: var(--HEADER-COLOR);
+    padding: var(--PADDING-TB) var(--PADDING-SIDE);
+}
+
+.header_nav {
+    background-color: var(--NAV-BGCOLOR);
+    border-bottom: var(--BORDERS);
+    font-weight: bold;
+    box-shadow: 0 6px 5px -5px var(--BORDER-COLOR);
+}
+
+.header_ul {
+    padding: var(--PADDING-TB) var(--PADDING-SIDE);
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+/* || HERO */
+
+.hero {
+    position: relative;
+}
+
+/* CSS Text Animation Source: https://www.youtube.com/watch?v=QdwsIqEai7g */
+.hero__h2 {
+    background-color: var(--HERO-BGCOLOR);
+    color: var(--HERO-COLOR);
+    padding: 0.25em 0.5em;
+    text-shadow: 2px 2px 5px var(--BORDER-COLOR);
+    position: absolute;
+    top: -100px;
+    left: 20px;
+    animation: showWelcome 0.5s ease-in-out 1s forwards;
+}
+
+@keyframes showWelcome {
+    0% {
+        top: -20px;
+        transform: skew(0deg, -5deg) scaleY(0);
+    }
+
+    80% {
+        top: 30px;
+        transform: skew(10deg, -5deg) scaleY(1.2);
+    }
+
+    100% {
+        top: 20px;
+        transform: skew(-10deg, -5deg) scaleY(1);
+    }
+}
+
+/* || FOOTER */
+
+.footer {
+    bottom: 0;
+    background-color: var(--HEADER-BGCOLOR);
+    color: var(--HEADER-COLOR);
+    padding: var(--PADDING-TB) var(--PADDING-SIDE);
+    text-align: center;
+}
+
+/* || MAIN */
+
+.main {
+    padding: var(--PADDING-TB) var(--PADDING-SIDE);
+}
+
+.main_article {
+    /* defines the top margin of the scroll snap area that is used for snapping this box to the snapport */
+    scroll-margin-top: 100px;
+    margin: var(--MARGIN);
+}
+
+.main_article:first-child {
+    margin-top: 1em;
+}
+
+.main_article:last-child {
+    min-height: calc(100vh - 20rem);
+}
+
+
+/* || MENU */
+
+thead,
+tbody,
+tfoot,
+tr {
+    display: contents;
+}
+
+/* For the menu table */
+.menu__container {
+  
+  /* Displays a table as a grid */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    /* Allows you to explicitly define the table grid */
+    grid-template-areas:
+        "hd1 hd2 hd3"
+        "cr cr1 cr1p"
+        "cr cr2 cr2p"
+        "cr cr3 cr3p"
+        "cr cr4 cr4p"
+        "sf sf1 sf1p"
+        "sf sf2 sf2p"
+        "sf sf3 sf3p"
+        /* Repeating cs three times will merge all the cells into one cell row */
+        "cs cs cs";
+    gap: 0.1em;
+    margin-bottom: 1em;
+}
+
+.menu__cr {
+    grid-area: cr;
+}
+
+.menu__sf {
+    grid-area: sf;
+}
+
+.menu__cs {
+    grid-area: cs;
+}
+
+.menu__cr,
+.menu__sf,
+.menu__cs,
+.menu__header {
+    color: var(--HIGHLIGHT-COLOR);
+    font-weight: bold;
+    height: 100%;
+    display: grid;
+    place-content: center;
+}
+
+.menu__header,
+.menu__item {
+    width: 100%;
+    padding: 1em;
+    border: medium ridge var(--BORDER-COLOR);
+}
+
+.menu__item {
+    display: grid;
+    place-content: center;
+}
+
+thead th:first-child {
+    border-top-left-radius: var(--BORDER-RADIUS);
+}
+
+thead th:last-child {
+    border-top-right-radius: var(--BORDER-RADIUS);
+}
+
+tfoot td {
+    border-bottom-left-radius: var(--BORDER-RADIUS);
+    border-bottom-right-radius: var(--BORDER-RADIUS);
+}
+
+@media screen and (min-width: 576px) {
+    .header_h1::before {
+        content: url(https://mmorri22-nd.neocities.org/images/NDShamrock.gif)
+    }
+
+    .header_h1::after {
+        content: url(https://mmorri22-nd.neocities.org/images/NDShamrock.gif)
+    }
+
+    .menu__header,
+    .menu__cr,
+    .menu__sf,
+    .menu__cs {
+        font-size: 125%;
+    }
+}
