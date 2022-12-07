@@ -918,7 +918,7 @@
         ]
     },
     {
-        "question": "Problem 1 - Which of the following statements are true?",
+        "question": "Problem 12 - Which of the following statements are true?",
         "type": "many_choice",
         "answers": [
             {
@@ -949,7 +949,7 @@
         ]
     },
     {
-        "question": "Problem 2 - Which of the following statements about files are true?",
+        "question": "Problem 13 - Which of the following statements about files are true?",
         "type": "many_choice",
         "answers": [
             {
@@ -974,153 +974,7 @@
         ]
     },
     {
-        "question": "Problem 3a - Which of the following is the definition of Device Driver?",
-        "type": "many_choice",
-        "answers": [
-            {
-                "answer": "Acts as a bridge to a specific hardware device..",
-                "correct": true,
-            },
-            {
-                "answer": "Manages the hardware of a computer and makes it possible to run other programs.",
-                "correct": false,
-            },
-            {
-                "answer": "Self-contained program focused on a single task.",
-                "correct": false,
-            },
-        ]
-    },
-    {
-        "question": "Problem 3b - Which of the following is the definition of Operating System?",
-        "type": "many_choice",
-        "answers": [
-            {
-                "answer": "Acts as a bridge to a specific hardware device..",
-                "correct": false,
-            },
-            {
-                "answer": "Manages the hardware of a computer and makes it possible to run other programs.",
-                "correct": true,
-            },
-            {
-                "answer": "Self-contained program focused on a single task.",
-                "correct": false,
-            },
-        ]
-    },
-    {
-        "question": "Problem 3c - Which of the following is the definition of application?",
-        "type": "many_choice",
-        "answers": [
-            {
-                "answer": "Acts as a bridge to a specific hardware device..",
-                "correct": false,
-            },
-            {
-                "answer": "Manages the hardware of a computer and makes it possible to run other programs.",
-                "correct": false,
-            },
-            {
-                "answer": "Self-contained program focused on a single task.",
-                "correct": true,
-            },
-        ]
-    },
-    {
-        "question": "Problem 4a - Using the table above, enter the number of the definition for 'Turing Machine'",
-        "type": "numeric",
-        "answers": [
-            {
-                "type": "value",
-                "value": 2,
-                "correct": true,
-                "feedback": "Correct. An idealized machine that serves as a universal model of computation."
-            },
-            {
-                "type": "default",
-                "feedback": "Incorrect. Try again."
-            }
-        ]
-    },
-    {
-        "question": "Problem 4b - Using the table above, enter the number of the definition for 'Distributed Computing'",
-        "type": "numeric",
-        "answers": [
-            {
-                "type": "value",
-                "value": 4,
-                "correct": true,
-                "feedback": "Correct. A system where a group of independent computers communicate to solve problems."
-            },
-            {
-                "type": "default",
-                "feedback": "Incorrect. Try again."
-            }
-        ]
-    },
-    {
-        "question": "Problem 4c - Using the table above, enter the number of the definition for 'Super Computer'",
-        "type": "numeric",
-        "answers": [
-            {
-                "type": "value",
-                "value": 1,
-                "correct": true,
-                "feedback": "Correct. A large computer with a number of processors and lots of memory."
-            },
-            {
-                "type": "default",
-                "feedback": "Incorrect. Try again."
-            }
-        ]
-    },
-    {
-        "question": "Problem 4d - Using the table above, enter the number of the definition for 'GPU'",
-        "type": "numeric",
-        "answers": [
-            {
-                "type": "value",
-                "value": 3,
-                "correct": true,
-                "feedback": "Correct. A specialized processor that perform graphics computations much faster than conventional CPUs."
-            },
-            {
-                "type": "default",
-                "feedback": "Incorrect. Try again."
-            }
-        ]
-    },
-    {
-        "question": "Problem 5 - Which of the following statements about operating systems are true?",
-        "type": "many_choice",
-        "answers": [
-            {
-                "answer": "An OS must manage a systems CPU by scheduling and coordinating which programs run.",
-                "correct": true,
-                "feedback": "Correct."
-            },
-            {
-                "answer": "An OS organizes the information stored on a disk via a file system interface.",
-                "correct": true,
-            },
-            {
-                "answer": "An OS typically allows each application to mange RAM directly.",
-                "correct": false,
-            },
-            {
-                "answer": "Embedded operating systems run on devices usually considered general purpose computers ",
-                "correct": false,
-                "feedback": "Embedded operating systems run on devices usually *not* considered general purpose computers."
-            },
-            {
-                "answer": "Real-time operating systems provide absolute guarantees that a certain action will occur by a certain time",
-                "correct": true,
-            }
-        ]
-    },
-    {
-        "question": "Problem 6 - Which of the following statements about images are true?",
+        "question": "Problem 14 - Which of the following statements about images are true?",
         "type": "many_choice",
         "answers": [
             {
@@ -1146,102 +1000,6 @@
             {
                 "answer": "Each image pixel has an x and y coordinate along with a color value.",
                 "correct": true,
-            }
-        ]
-    },
-    {
-        "question": "Problem 7a - Using the table above, enter the number of the definition for 'Library'",
-        "type": "numeric",
-        "answers": [
-            {
-                "type": "value",
-                "value": 2,
-                "correct": true,
-                "feedback": "Correct. A collection of related functions."
-            },
-            {
-                "type": "default",
-                "feedback": "Incorrect. Try again."
-            }
-        ]
-    },
-    {
-        "question": "Problem 7b - Using the table above, enter the number of the definition for 'SDK'",
-        "type": "numeric",
-        "answers": [
-            {
-                "type": "value",
-                "value": 4,
-                "correct": true,
-                "feedback": "Correct.  An environment and supporting tools for a particular platform."
-            },
-            {
-                "type": "default",
-                "feedback": "Incorrect. Try again."
-            }
-        ]
-    },
-    {
-        "question": "Problem 7c - Using the table above, enter the number of the definition for 'Bug'",
-        "type": "numeric",
-        "answers": [
-            {
-                "type": "value",
-                "value": 5,
-                "correct": true,
-                "feedback": "Correct.  Flaw in a piece of software."
-            },
-            {
-                "type": "default",
-                "feedback": "Incorrect. Try again."
-            }
-        ]
-    },
-    {
-        "question": "Problem 7d - Using the table above, enter the number of the definition for 'API'",
-        "type": "numeric",
-        "answers": [
-            {
-                "type": "value",
-                "value": 1,
-                "correct": true,
-                "feedback": "Correct.  Description of what services a system provides."
-            },
-            {
-                "type": "default",
-                "feedback": "Incorrect. Try again."
-            }
-        ]
-    },
-    {
-        "question": "Problem 7e - Using the table above, enter the number of the definition for 'Assembler'",
-        "type": "numeric",
-        "answers": [
-            {
-                "type": "value",
-                "value": 6,
-                "correct": true,
-                "feedback": "Correct.  Translates low-level code to machine code."
-            },
-            {
-                "type": "default",
-                "feedback": "Incorrect. Try again."
-            }
-        ]
-    },
-    {
-        "question": "Problem 7f - Using the table above, enter the number of the definition for 'Compiler'",
-        "type": "numeric",
-        "answers": [
-            {
-                "type": "value",
-                "value": 3,
-                "correct": true,
-                "feedback": "Correct.  Translates high-level code to machine code."
-            },
-            {
-                "type": "default",
-                "feedback": "Incorrect. Try again."
             }
         ]
     },
