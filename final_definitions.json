@@ -135,11 +135,11 @@
         "answers": [
             {
                 "answer": "Ethernet uses a variable backoff strategy to handle contention.",
-                "correct": false,
+                "correct": true,
             },
             {
                 "answer": "The telephone system still carries mostly analog voice signals.",
-                "correct": false,
+                "correct": true,
             },
             {
                 "answer": "DSL sends data using the coaxial cable used for television services.",
@@ -169,18 +169,14 @@
         "answers": [
             {
                 "answer": "To access the content of the response object as a string, we can do response.text.",
-                "correct": false,
+                "correct": true,
             },
             {
                 "answer": "The requests.get function takes a string of a URL to download.",
-                "correct": false,
+                "correct": true,
             },
             {
                 "answer": "The requests.get function always succeeds.",
-                "correct": false,
-            },
-            {
-                "answer": "XXXXX.",
                 "correct": false,
             },
         ]
