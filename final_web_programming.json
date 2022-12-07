@@ -1,0 +1,388 @@
+[
+     {
+        "question": "Problem 1a - Which of the following HTML tags is used to Create a Hyperlink?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "< a href >",
+                "correct": true,
+            },
+            {
+                "answer": "< h1 >< /h1 >",
+                "correct": false,
+            },
+            {
+                "answer": "< img src >.",
+                "correct": false,
+            },
+            {
+                "answer": "< p >< /p >",
+                "correct": false,
+            },
+            {
+                "answer": "< i >< /i >",
+                "correct": false,
+            },
+            {
+                "answer": "< b >< /b >",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 1b - Which of the following HTML tags is used to create a new page?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "< a href >",
+                "correct": false,
+            },
+            {
+                "answer": "< h1 >< /h1 >",
+                "correct": true,
+            },
+            {
+                "answer": "< img src >.",
+                "correct": false,
+            },
+            {
+                "answer": "< p >< /p >",
+                "correct": false,
+            },
+            {
+                "answer": "< i >< /i >",
+                "correct": false,
+            },
+            {
+                "answer": "< b >< /b >",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 1c - Which of the following HTML tags is used to embed an image?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "< a href >",
+                "correct": false,
+            },
+            {
+                "answer": "< h1 >< /h1 >",
+                "correct": false,
+            },
+            {
+                "answer": "< img src >.",
+                "correct": true,
+            },
+            {
+                "answer": "< p >< /p >",
+                "correct": false,
+            },
+            {
+                "answer": "< i >< /i >",
+                "correct": false,
+            },
+            {
+                "answer": "< b >< /b >",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 1d - Which of the following HTML tags is used to create a paragraph?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "< a href >",
+                "correct": false,
+            },
+            {
+                "answer": "< h1 >< /h1 >",
+                "correct": false,
+            },
+            {
+                "answer": "< img src >.",
+                "correct": false,
+            },
+            {
+                "answer": "< p >< /p >",
+                "correct": true,
+            },
+            {
+                "answer": "< i >< /i >",
+                "correct": false,
+            },
+            {
+                "answer": "< b >< /b >",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 1e - Which of the following HTML tags is used to make italic text?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "< a href >",
+                "correct": false,
+            },
+            {
+                "answer": "< h1 >< /h1 >",
+                "correct": false,
+            },
+            {
+                "answer": "< img src >.",
+                "correct": false,
+            },
+            {
+                "answer": "< p >< /p >",
+                "correct": false,
+            },
+            {
+                "answer": "< i >< /i >",
+                "correct": true,
+            },
+            {
+                "answer": "< b >< /b >",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 1f - Which of the following HTML tags is used to make bold text?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "< a href >",
+                "correct": false,
+            },
+            {
+                "answer": "< h1 >< /h1 >",
+                "correct": false,
+            },
+            {
+                "answer": "< img src >.",
+                "correct": false,
+            },
+            {
+                "answer": "< p >< /p >",
+                "correct": false,
+            },
+            {
+                "answer": "< i >< /i >",
+                "correct": false,
+            },
+            {
+                "answer": "< b >< /b >",
+                "correct": true,
+            },
+        ]
+    },
+    {
+        "question": "Problem 2 - Which of the following do Tornado web applications generally consist of?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "RequestHandler subclass",
+                "correct": true,
+            },
+            {
+                "answer": "HTTPServerRequest",
+                "correct": false,
+            },
+            {
+                "answer": "Application object",
+                "correct": true,
+            },
+            {
+                "answer": "main() function",
+                "correct": true,
+            },
+            {
+                "answer": "RedirectHandler",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 3a - Which of the following is the definition of the Tornado Application object?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Responsible for global configuration, including the routing table that maps requests to handlers",
+                "correct": true,
+            },
+            {
+                "answer": "A list of URLSpec objects (or tuples), each of which contains (at least) a regular expression and a handler class.",
+                "correct": false,
+            },
+            {
+                "answer": "Class that defines one or more of these methods to handle different HTTP actions",
+                "correct": false,
+            },
+            {
+                "answer": "Takes many keyword arguments that can be used to customize the behavior of the application and enable optional features",
+                "correct": false,
+            },
+            {
+                "answer": "HTML (or any other text-based format) with Python control sequences and expressions embedded within the markup",
+                "correct": false,
+            },
+            {
+                "answer": "Object containing additional request parameters including e.g. headers and body data",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 3b - Which of the following is the definition of the Tornado Routing table?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Responsible for global configuration, including the routing table that maps requests to handlers",
+                "correct": false,
+            },
+            {
+                "answer": "A list of URLSpec objects (or tuples), each of which contains (at least) a regular expression and a handler class.",
+                "correct": true,
+            },
+            {
+                "answer": "Class that defines one or more of these methods to handle different HTTP actions",
+                "correct": false,
+            },
+            {
+                "answer": "Takes many keyword arguments that can be used to customize the behavior of the application and enable optional features",
+                "correct": false,
+            },
+            {
+                "answer": "HTML (or any other text-based format) with Python control sequences and expressions embedded within the markup",
+                "correct": false,
+            },
+            {
+                "answer": "Object containing additional request parameters including e.g. headers and body data",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 3c - Which of the following is the definition of the Tornado RequestHandler?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Responsible for global configuration, including the routing table that maps requests to handlers",
+                "correct": false,
+            },
+            {
+                "answer": "A list of URLSpec objects (or tuples), each of which contains (at least) a regular expression and a handler class.",
+                "correct": false,
+            },
+            {
+                "answer": "Class that defines one or more of these methods to handle different HTTP actions",
+                "correct": true,
+            },
+            {
+                "answer": "Takes many keyword arguments that can be used to customize the behavior of the application and enable optional features",
+                "correct": false,
+            },
+            {
+                "answer": "HTML (or any other text-based format) with Python control sequences and expressions embedded within the markup",
+                "correct": false,
+            },
+            {
+                "answer": "Object containing additional request parameters including e.g. headers and body data",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 3d - Which of the following is the definition of the Tornado Application constructor?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Responsible for global configuration, including the routing table that maps requests to handlers",
+                "correct": false,
+            },
+            {
+                "answer": "A list of URLSpec objects (or tuples), each of which contains (at least) a regular expression and a handler class.",
+                "correct": false,
+            },
+            {
+                "answer": "Class that defines one or more of these methods to handle different HTTP actions",
+                "correct": false,
+            },
+            {
+                "answer": "Takes many keyword arguments that can be used to customize the behavior of the application and enable optional features",
+                "correct": true,
+            },
+            {
+                "answer": "HTML (or any other text-based format) with Python control sequences and expressions embedded within the markup",
+                "correct": false,
+            },
+            {
+                "answer": "Object containing additional request parameters including e.g. headers and body data",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 3e - Which of the following is the definition of the Tornado Template?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Responsible for global configuration, including the routing table that maps requests to handlers",
+                "correct": false,
+            },
+            {
+                "answer": "A list of URLSpec objects (or tuples), each of which contains (at least) a regular expression and a handler class.",
+                "correct": false,
+            },
+            {
+                "answer": "Class that defines one or more of these methods to handle different HTTP actions",
+                "correct": false,
+            },
+            {
+                "answer": "Takes many keyword arguments that can be used to customize the behavior of the application and enable optional features",
+                "correct": false,
+            },
+            {
+                "answer": "HTML (or any other text-based format) with Python control sequences and expressions embedded within the markup",
+                "correct": true,
+            },
+            {
+                "answer": "Object containing additional request parameters including e.g. headers and body data",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 3f - Which of the following is the definition of the Tornado HTTPServerRequest?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Responsible for global configuration, including the routing table that maps requests to handlers",
+                "correct": false,
+            },
+            {
+                "answer": "A list of URLSpec objects (or tuples), each of which contains (at least) a regular expression and a handler class.",
+                "correct": false,
+            },
+            {
+                "answer": "Class that defines one or more of these methods to handle different HTTP actions",
+                "correct": false,
+            },
+            {
+                "answer": "Takes many keyword arguments that can be used to customize the behavior of the application and enable optional features",
+                "correct": false,
+            },
+            {
+                "answer": "HTML (or any other text-based format) with Python control sequences and expressions embedded within the markup",
+                "correct": false,
+            },
+            {
+                "answer": "Object containing additional request parameters including e.g. headers and body data",
+                "correct": true,
+            },
+        ]
+    },
+]

@@ -1,6 +1,6 @@
 [
     {
-        "question": "Problem 9 - Which of the following statements regarding search engines are true (select all that apply)?",
+        "question": "Problem 1 - Which of the following statements regarding search engines are true (select all that apply)?",
         "type": "many_choice",
         "answers": [
             {
@@ -34,7 +34,7 @@
         ]
     },
     {
-        "question": "Problem 10 - Which of the following statements regarding search engines are true regarding Aggregation (select all that apply)?",
+        "question": "Problem 2 - Which of the following statements regarding search engines are true regarding Aggregation (select all that apply)?",
         "type": "many_choice",
         "answers": [
             {
@@ -56,7 +56,7 @@
         ]
     },
     {
-        "question": "Problem 11 - Which of the following are considered cloud services? (select all that apply)",
+        "question": "Problem 3 - Which of the following are considered cloud services? (select all that apply)",
         "type": "many_choice",
         "answers": [
             {
