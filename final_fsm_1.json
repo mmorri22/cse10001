@@ -1,0 +1,24 @@
+[
+    {
+		"question": "Given the Finite State Machine and set of control signals above, select the correct output signals",
+        "type": "many_choice",
+        "answers": [
+            {
+                "code": "{0, 0, 0, 1, 1, 1, 0, 1, 0}",
+                "correct": true,
+            },
+            {
+                "code": "{1, 1, 1, 0, 0, 0, 1, 0, 1}",
+                "correct": false,
+            },
+            {
+                "code": "{0, 0, 0, 1, 0, 0, 1, 0, 1}",
+                "correct": false,
+            },
+            {
+                "code": "{0, 0, 1, 0, 1, 0, 1, 1, 0}",
+                "correct": false,
+            }
+        ]
+    },
+]
