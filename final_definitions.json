@@ -866,6 +866,58 @@
         ]
     },
     {
+        "question": "Problem 10 - Which of the following statements regarding search engines are true regarding Aggregation (select all that apply)?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Geolocation services broadcast users' locations on cell phones, allowing for targeted advertising.",
+                "correct": true,
+            },
+            {
+                "answer": "Social networks have a good track record of safeguarding user data and preventing data leaks.",
+                "correct": false,
+            },
+            {
+                "answer": "Government agencies regularly collect and analyze communication metadata.",
+                "correct": true,
+            },
+            {
+                "answer": "Likes are generally harmless as no useful information can be gleaned from these actions.",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 11 - Which of the following are considered cloud services? (select all that apply)",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Twitter.",
+                "correct": true,
+            },
+            {
+                "answer": "Instagram.",
+                "correct": true,
+            },
+            {
+                "answer": "GMail.",
+                "correct": true,
+            },
+            {
+                "answer": "Dropbox.",
+                "correct": true,
+            },
+            {
+                "answer": "Windows.",
+                "correct": false,
+            },
+            {
+                "answer": "Canvas.",
+                "correct": false,
+            },
+        ]
+    },
+    {
         "question": "Problem 1 - Which of the following statements are true?",
         "type": "many_choice",
         "answers": [
