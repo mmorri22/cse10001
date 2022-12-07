@@ -626,7 +626,7 @@
         ]
     },
     {
-        "question": "Problem 7 - Which of the following do Tornado web application generally consist of?",
+        "question": "Problem 7 - Which of the following do Tornado web applications generally consist of?",
         "type": "many_choice",
         "answers": [
             {
@@ -648,6 +648,186 @@
             {
                 "answer": "RedirectHandler",
                 "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 8a - Which of the following is the definition of the Tornado Application object?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Responsible for global configuration, including the routing table that maps requests to handlers",
+                "correct": true,
+            },
+            {
+                "answer": "A list of URLSpec objects (or tuples), each of which contains (at least) a regular expression and a handler class.",
+                "correct": false,
+            },
+            {
+                "answer": "Class that defines one or more of these methods to handle different HTTP actions",
+                "correct": false,
+            },
+            {
+                "answer": "Takes many keyword arguments that can be used to customize the behavior of the application and enable optional features",
+                "correct": false,
+            },
+            {
+                "answer": "HTML (or any other text-based format) with Python control sequences and expressions embedded within the markup",
+                "correct": false,
+            },
+            {
+                "answer": "Object containing additional request parameters including e.g. headers and body data",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 8b - Which of the following is the definition of the Tornado Routing table?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Responsible for global configuration, including the routing table that maps requests to handlers",
+                "correct": false,
+            },
+            {
+                "answer": "A list of URLSpec objects (or tuples), each of which contains (at least) a regular expression and a handler class.",
+                "correct": true,
+            },
+            {
+                "answer": "Class that defines one or more of these methods to handle different HTTP actions",
+                "correct": false,
+            },
+            {
+                "answer": "Takes many keyword arguments that can be used to customize the behavior of the application and enable optional features",
+                "correct": false,
+            },
+            {
+                "answer": "HTML (or any other text-based format) with Python control sequences and expressions embedded within the markup",
+                "correct": false,
+            },
+            {
+                "answer": "Object containing additional request parameters including e.g. headers and body data",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 8c - Which of the following is the definition of the Tornado RequestHandler?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Responsible for global configuration, including the routing table that maps requests to handlers",
+                "correct": false,
+            },
+            {
+                "answer": "A list of URLSpec objects (or tuples), each of which contains (at least) a regular expression and a handler class.",
+                "correct": false,
+            },
+            {
+                "answer": "Class that defines one or more of these methods to handle different HTTP actions",
+                "correct": true,
+            },
+            {
+                "answer": "Takes many keyword arguments that can be used to customize the behavior of the application and enable optional features",
+                "correct": false,
+            },
+            {
+                "answer": "HTML (or any other text-based format) with Python control sequences and expressions embedded within the markup",
+                "correct": false,
+            },
+            {
+                "answer": "Object containing additional request parameters including e.g. headers and body data",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 8d - Which of the following is the definition of the Tornado Application constructor?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Responsible for global configuration, including the routing table that maps requests to handlers",
+                "correct": false,
+            },
+            {
+                "answer": "A list of URLSpec objects (or tuples), each of which contains (at least) a regular expression and a handler class.",
+                "correct": false,
+            },
+            {
+                "answer": "Class that defines one or more of these methods to handle different HTTP actions",
+                "correct": false,
+            },
+            {
+                "answer": "Takes many keyword arguments that can be used to customize the behavior of the application and enable optional features",
+                "correct": true,
+            },
+            {
+                "answer": "HTML (or any other text-based format) with Python control sequences and expressions embedded within the markup",
+                "correct": false,
+            },
+            {
+                "answer": "Object containing additional request parameters including e.g. headers and body data",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 8e - Which of the following is the definition of the Tornado Template?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Responsible for global configuration, including the routing table that maps requests to handlers",
+                "correct": false,
+            },
+            {
+                "answer": "A list of URLSpec objects (or tuples), each of which contains (at least) a regular expression and a handler class.",
+                "correct": false,
+            },
+            {
+                "answer": "Class that defines one or more of these methods to handle different HTTP actions",
+                "correct": false,
+            },
+            {
+                "answer": "Takes many keyword arguments that can be used to customize the behavior of the application and enable optional features",
+                "correct": false,
+            },
+            {
+                "answer": "HTML (or any other text-based format) with Python control sequences and expressions embedded within the markup",
+                "correct": true,
+            },
+            {
+                "answer": "Object containing additional request parameters including e.g. headers and body data",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 8f - Which of the following is the definition of the Tornado HTTPServerRequest?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Responsible for global configuration, including the routing table that maps requests to handlers",
+                "correct": false,
+            },
+            {
+                "answer": "A list of URLSpec objects (or tuples), each of which contains (at least) a regular expression and a handler class.",
+                "correct": false,
+            },
+            {
+                "answer": "Class that defines one or more of these methods to handle different HTTP actions",
+                "correct": false,
+            },
+            {
+                "answer": "Takes many keyword arguments that can be used to customize the behavior of the application and enable optional features",
+                "correct": false,
+            },
+            {
+                "answer": "HTML (or any other text-based format) with Python control sequences and expressions embedded within the markup",
+                "correct": false,
+            },
+            {
+                "answer": "Object containing additional request parameters including e.g. headers and body data",
+                "correct": true,
             },
         ]
     },
