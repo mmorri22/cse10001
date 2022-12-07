@@ -832,37 +832,6 @@
         ]
     },
     {
-        "question": "Problem 1 - Which of the following statements are true?",
-        "type": "many_choice",
-        "answers": [
-            {
-                "answer": "Images can be represented by a grid of pixels, where each pixel element consists of red, green, and blue values.",
-                "correct": true,
-                "feedback": "Correct."
-            },
-            {
-                "answer": "Conversion from analog to digital is usually perfect and high fidelity.",
-                "correct": false,
-                "feedback": "Digital requires hitting specific noise margins, which usually reduces fidelity."
-            },
-            {
-                "answer": "Individual characters in text are actually numbers that follow a convention such as ASCII or Unicode",
-                "correct": true,
-                "feedback": "Correct."
-            },
-            {
-                "answer": "Digital systems deal with discrete values (meaning there are only a fixed number of possible values).",
-                "correct": true,
-                "feedback": "Correct."
-            },
-            {
-                "answer": "Analog information is usually easier to interpret, store, transported, and processed than digital information.",
-                "correct": false,
-                "feedback": "Since analog can be more varied, and require more precise information storage, it is more difficult."
-            }
-        ]
-    },
-    {
         "question": "Problem 9 - Which of the following statements regarding search engines are true (select all that apply)?",
         "type": "many_choice",
         "answers": [
@@ -894,6 +863,37 @@
                 "answer": "Companies such as Google now have a higher market capitalization than traditional companies such as General Electric.",
                 "correct": true,
             },
+        ]
+    },
+    {
+        "question": "Problem 1 - Which of the following statements are true?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Images can be represented by a grid of pixels, where each pixel element consists of red, green, and blue values.",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "Conversion from analog to digital is usually perfect and high fidelity.",
+                "correct": false,
+                "feedback": "Digital requires hitting specific noise margins, which usually reduces fidelity."
+            },
+            {
+                "answer": "Individual characters in text are actually numbers that follow a convention such as ASCII or Unicode",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "Digital systems deal with discrete values (meaning there are only a fixed number of possible values).",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "Analog information is usually easier to interpret, store, transported, and processed than digital information.",
+                "correct": false,
+                "feedback": "Since analog can be more varied, and require more precise information storage, it is more difficult."
+            }
         ]
     },
     {
