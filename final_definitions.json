@@ -182,6 +182,244 @@
         ]
     },
     {
+        "question": "Problem 4a - Which of the following is the definition of Latency?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Unit of information that is passed around a network.",
+                "correct": true,
+            },
+            {
+                "answer": "Rules for communication and operation.",
+                "correct": false,
+            },
+            {
+                "answer": "Specialized computers that connect different networks.",
+                "correct": false,
+            },
+            {
+                "answer": "A number that uniquely identifies a machine.",
+                "correct": false,
+            },
+            {
+                "answer": "Set of rules, for routing and addressing packets of data so that they can travel across networks.",
+                "correct": false,
+            },
+            {
+                "answer": "A name that maps to one or more addresses.",
+                "correct": false,
+            },
+            {
+                "answer": "Standard that defines how to establish and maintain a network conversation, and provides reliable streaming communication.",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 4b - Which of the following is the definition of Protocol?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Unit of information that is passed around a network.",
+                "correct": false,
+            },
+            {
+                "answer": "Rules for communication and operation.",
+                "correct": true,
+            },
+            {
+                "answer": "Specialized computers that connect different networks.",
+                "correct": false,
+            },
+            {
+                "answer": "A number that uniquely identifies a machine.",
+                "correct": false,
+            },
+            {
+                "answer": "Set of rules, for routing and addressing packets of data so that they can travel across networks.",
+                "correct": false,
+            },
+            {
+                "answer": "A name that maps to one or more addresses.",
+                "correct": false,
+            },
+            {
+                "answer": "Standard that defines how to establish and maintain a network conversation, and provides reliable streaming communication.",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 4c - Which of the following is the definition of Router?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Unit of information that is passed around a network.",
+                "correct": false,
+            },
+            {
+                "answer": "Rules for communication and operation.",
+                "correct": false,
+            },
+            {
+                "answer": "Specialized computers that connect different networks.",
+                "correct": true,
+            },
+            {
+                "answer": "A number that uniquely identifies a machine.",
+                "correct": false,
+            },
+            {
+                "answer": "Set of rules, for routing and addressing packets of data so that they can travel across networks.",
+                "correct": false,
+            },
+            {
+                "answer": "A name that maps to one or more addresses.",
+                "correct": false,
+            },
+            {
+                "answer": "Standard that defines how to establish and maintain a network conversation, and provides reliable streaming communication.",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 4d - Which of the following is the definition of Address?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Unit of information that is passed around a network.",
+                "correct": false,
+            },
+            {
+                "answer": "Rules for communication and operation.",
+                "correct": false,
+            },
+            {
+                "answer": "Specialized computers that connect different networks.",
+                "correct": false,
+            },
+            {
+                "answer": "A number that uniquely identifies a machine.",
+                "correct": true,
+            },
+            {
+                "answer": "Set of rules, for routing and addressing packets of data so that they can travel across networks.",
+                "correct": false,
+            },
+            {
+                "answer": "A name that maps to one or more addresses.",
+                "correct": false,
+            },
+            {
+                "answer": "Standard that defines how to establish and maintain a network conversation, and provides reliable streaming communication.",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 4e - Which of the following is the definition of IP?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Unit of information that is passed around a network.",
+                "correct": false,
+            },
+            {
+                "answer": "Rules for communication and operation.",
+                "correct": false,
+            },
+            {
+                "answer": "Specialized computers that connect different networks.",
+                "correct": false,
+            },
+            {
+                "answer": "A number that uniquely identifies a machine.",
+                "correct": false,
+            },
+            {
+                "answer": "Set of rules, for routing and addressing packets of data so that they can travel across networks.",
+                "correct": true,
+            },
+            {
+                "answer": "A name that maps to one or more addresses.",
+                "correct": false,
+            },
+            {
+                "answer": "Standard that defines how to establish and maintain a network conversation, and provides reliable streaming communication.",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 4f - Which of the following is the definition of Domain?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Unit of information that is passed around a network.",
+                "correct": false,
+            },
+            {
+                "answer": "Rules for communication and operation.",
+                "correct": false,
+            },
+            {
+                "answer": "Specialized computers that connect different networks.",
+                "correct": false,
+            },
+            {
+                "answer": "A number that uniquely identifies a machine.",
+                "correct": false,
+            },
+            {
+                "answer": "Set of rules, for routing and addressing packets of data so that they can travel across networks.",
+                "correct": false,
+            },
+            {
+                "answer": "A name that maps to one or more addresses.",
+                "correct": true,
+            },
+            {
+                "answer": "Standard that defines how to establish and maintain a network conversation, and provides reliable streaming communication.",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 4g - Which of the following is the definition of TCP?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Unit of information that is passed around a network.",
+                "correct": false,
+            },
+            {
+                "answer": "Rules for communication and operation.",
+                "correct": false,
+            },
+            {
+                "answer": "Specialized computers that connect different networks.",
+                "correct": false,
+            },
+            {
+                "answer": "A number that uniquely identifies a machine.",
+                "correct": false,
+            },
+            {
+                "answer": "Set of rules, for routing and addressing packets of data so that they can travel across networks.",
+                "correct": false,
+            },
+            {
+                "answer": "A name that maps to one or more addresses.",
+                "correct": false,
+            },
+            {
+                "answer": "Standard that defines how to establish and maintain a network conversation, and provides reliable streaming communication.",
+                "correct": true,
+            },
+        ]
+    },
+    {
         "question": "Problem 1 - Which of the following statements are true?",
         "type": "many_choice",
         "answers": [
