@@ -419,4 +419,30 @@
             },
         ]
     },
+    {
+        "question": "Problem 5 - Which of the following statements regarding the World Wide Web is true (select all that apply)?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "A URL specifies the name for a source of information.",
+                "correct": true,
+            },
+            {
+                "answer": "The browser is a client application used to make HTTP requests to a HTTP server.",
+                "correct": true,
+            },
+            {
+                "answer": "CSS is a language for defining style properties of HTML elements.",
+                "correct": true,
+            },
+            {
+                "answer": "HTTP is complex low-level protocol with complicated interactions between machines.",
+                "correct": false,
+            },
+            {
+                "answer": "HTML is a full programming language like Python.",
+                "correct": false,
+            },
+        ]
+    },
 ]
