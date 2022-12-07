@@ -446,6 +446,186 @@
         ]
     },
     {
+        "question": "Problem 6a - Which of the following HTML tags is used to Create a Hyperlink?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "< a href >",
+                "correct": true,
+            },
+            {
+                "answer": "< h1 >< /h1 >",
+                "correct": false,
+            },
+            {
+                "answer": "< img src >.",
+                "correct": false,
+            },
+            {
+                "answer": "< p >< /p >",
+                "correct": false,
+            },
+            {
+                "answer": "< i >< /i >",
+                "correct": false,
+            },
+            {
+                "answer": "< em >< /em >",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 6b - Which of the following HTML tags is used to create a new page?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "< a href >",
+                "correct": false,
+            },
+            {
+                "answer": "< h1 >< /h1 >",
+                "correct": true,
+            },
+            {
+                "answer": "< img src >.",
+                "correct": false,
+            },
+            {
+                "answer": "< p >< /p >",
+                "correct": false,
+            },
+            {
+                "answer": "< i >< /i >",
+                "correct": false,
+            },
+            {
+                "answer": "< em >< /em >",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 6c - Which of the following HTML tags is used to embed an image?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "< a href >",
+                "correct": false,
+            },
+            {
+                "answer": "< h1 >< /h1 >",
+                "correct": false,
+            },
+            {
+                "answer": "< img src >.",
+                "correct": true,
+            },
+            {
+                "answer": "< p >< /p >",
+                "correct": false,
+            },
+            {
+                "answer": "< i >< /i >",
+                "correct": false,
+            },
+            {
+                "answer": "< em >< /em >",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 6d - Which of the following HTML tags is used to create a paragraph?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "< a href >",
+                "correct": false,
+            },
+            {
+                "answer": "< h1 >< /h1 >",
+                "correct": false,
+            },
+            {
+                "answer": "< img src >.",
+                "correct": false,
+            },
+            {
+                "answer": "< p >< /p >",
+                "correct": true,
+            },
+            {
+                "answer": "< i >< /i >",
+                "correct": false,
+            },
+            {
+                "answer": "< em >< /em >",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 6e - Which of the following HTML tags is used to make italic text?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "< a href >",
+                "correct": false,
+            },
+            {
+                "answer": "< h1 >< /h1 >",
+                "correct": false,
+            },
+            {
+                "answer": "< img src >.",
+                "correct": false,
+            },
+            {
+                "answer": "< p >< /p >",
+                "correct": false,
+            },
+            {
+                "answer": "< i >< /i >",
+                "correct": true,
+            },
+            {
+                "answer": "< em >< /em >",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 6e - Which of the following HTML tags is used to make bold text?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "< a href >",
+                "correct": false,
+            },
+            {
+                "answer": "< h1 >< /h1 >",
+                "correct": false,
+            },
+            {
+                "answer": "< img src >.",
+                "correct": false,
+            },
+            {
+                "answer": "< p >< /p >",
+                "correct": false,
+            },
+            {
+                "answer": "< i >< /i >",
+                "correct": false,
+            },
+            {
+                "answer": "< em >< /em >",
+                "correct": true,
+            },
+        ]
+    },
+    {
         "question": "Problem 1 - Which of the following statements are true?",
         "type": "many_choice",
         "answers": [
