@@ -626,6 +626,32 @@
         ]
     },
     {
+        "question": "Problem 7 - Which of the following do Tornado web application generally consist of?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "RequestHandler subclass",
+                "correct": true,
+            },
+            {
+                "answer": "HTTPServerRequest",
+                "correct": false,
+            },
+            {
+                "answer": "Application object",
+                "correct": true,
+            },
+            {
+                "answer": "main() function",
+                "correct": true,
+            },
+            {
+                "answer": "RedirectHandler",
+                "correct": false,
+            },
+        ]
+    },
+    {
         "question": "Problem 1 - Which of the following statements are true?",
         "type": "many_choice",
         "answers": [
