@@ -1,5 +1,135 @@
 [
     {
+        "question": "Problem 1a - Which of the following is the definition of Latency?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "How much variance there is in the delay of transfer.",
+                "correct": false,
+            },
+            {
+                "answer": "How geographically big a network can span.",
+                "correct": false,
+            },
+            {
+                "answer": "Encode data using fewer bits.",
+                "correct": false,
+            },
+            {
+                "answer": "How fast the network can transmit data.",
+                "correct": false,
+            },
+            {
+                "answer": "How long it takes for a particular chunk of information to transfer.",
+                "correct": true,
+            },
+        ]
+    },
+    {
+        "question": "Problem 1b - Which of the following is the definition of Bandwidth?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "How much variance there is in the delay of transfer.",
+                "correct": false,
+            },
+            {
+                "answer": "How geographically big a network can span.",
+                "correct": false,
+            },
+            {
+                "answer": "Encode data using fewer bits.",
+                "correct": false,
+            },
+            {
+                "answer": "How fast the network can transmit data.",
+                "correct": true,
+            },
+            {
+                "answer": "How long it takes for a particular chunk of information to transfer.",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 1c - Which of the following is the definition of Jitter?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "How much variance there is in the delay of transfer.",
+                "correct": true,
+            },
+            {
+                "answer": "How geographically big a network can span.",
+                "correct": false,
+            },
+            {
+                "answer": "Encode data using fewer bits.",
+                "correct": false,
+            },
+            {
+                "answer": "How fast the network can transmit data.",
+                "correct": false,
+            },
+            {
+                "answer": "How long it takes for a particular chunk of information to transfer.",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 1d - Which of the following is the definition of Compression?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "How much variance there is in the delay of transfer.",
+                "correct": false,
+            },
+            {
+                "answer": "How geographically big a network can span.",
+                "correct": false,
+            },
+            {
+                "answer": "Encode data using fewer bits.",
+                "correct": true,
+            },
+            {
+                "answer": "How fast the network can transmit data.",
+                "correct": false,
+            },
+            {
+                "answer": "How long it takes for a particular chunk of information to transfer.",
+                "correct": false,
+            },
+        ]
+    },
+    {
+        "question": "Problem 1e - Which of the following is the definition of XXXXX?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "How much variance there is in the delay of transfer.",
+                "correct": false,
+            },
+            {
+                "answer": "How geographically big a network can span.",
+                "correct": true,
+            },
+            {
+                "answer": "Encode data using fewer bits.",
+                "correct": false,
+            },
+            {
+                "answer": "How fast the network can transmit data.",
+                "correct": false,
+            },
+            {
+                "answer": "How long it takes for a particular chunk of information to transfer.",
+                "correct": false,
+            },
+        ]
+    },
+    {
         "question": "Problem 1 - Which of the following statements are true?",
         "type": "many_choice",
         "answers": [
