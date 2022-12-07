@@ -71,4 +71,90 @@
             }
         ]
     },
+    {
+        "question": "Problem 4 - Which of the following statements are true?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Images can be represented by a grid of pixels, where each pixel element consists of red, green, and blue values.",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "Conversion from analog to digital is usually perfect and high fidelity.",
+                "correct": false,
+                "feedback": "Digital requires hitting specific noise margins, which usually reduces fidelity."
+            },
+            {
+                "answer": "Individual characters in text are actually numbers that follow a convention such as ASCII or Unicode",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "Digital systems deal with discrete values (meaning there are only a fixed number of possible values).",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "Analog information is usually easier to interpret, store, transported, and processed than digital information.",
+                "correct": false,
+                "feedback": "Since analog can be more varied, and require more precise information storage, it is more difficult."
+            }
+        ]
+    },
+    {
+        "question": "Problem 5 - Which of the following statements about files are true?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Absolute paths always begin with the program's current working directory.",
+                "correct": false,
+                "feedback": "Absolute paths start at the top of the file hierarchy."
+            },
+            {
+                "answer": "Windows and macOS use the same separators between folder names.",
+                "correct": false,
+                "feedback": "The separators are different between different operating systems"
+            },
+            {
+                "answer": "Relative paths are always based on the program's current working directory.",
+                "correct": true,
+                "feedback": "'Relative' to your current location."
+            },
+            {
+                "answer": "The path of a file specifies its location on the computer.",
+                "correct": true,
+            },
+        ]
+    },
+    {
+        "question": "Problem 6 - Which of the following statements about images are true?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Computers typically use an subtractive color model to display colors on screens.",
+                "correct": false,
+				"feedback": "RGB is an *additive* color model."
+            },
+            {
+                "answer": "Programs often represent colors in an image as RGBA values.",
+                "correct": true,
+            },
+            {
+                "answer": "Typically, the y coordinates of an image increase upwards from the bottom.",
+                "correct": false,
+                "feedback": "Typically, the y coordinates of an image increase from the top down to the bottom."
+
+            },
+            {
+                "answer": "Each color component has a maximum value of 255.",
+                "correct": true,
+                "feedback": "Embedded operating systems run on devices usually *not* considered general purpose computers."
+            },
+            {
+                "answer": "Each image pixel has an x and y coordinate along with a color value.",
+                "correct": true,
+            }
+        ]
+    },
 ]
