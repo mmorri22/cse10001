@@ -863,6 +863,40 @@
         ]
     },
     {
+        "question": "Problem 9 - Which of the following statements regarding search engines are true (select all that apply)?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "To pay for search engines, most people subscribe to specific service providers.",
+                "correct": false,
+            },
+            {
+                "answer": "Crawlers scan web pages and store relevant contents into a database.",
+                "correct": true,
+            },
+            {
+                "answer": "When a user enters a search query, the whole web is scanned for results in real-time.",
+                "correct": false,
+            },
+            {
+                "answer": "Index-building algorithms take pages from crawlers, extracts relative parts, and matches them to URLs and locations on the page.",
+                "correct": true,
+            },
+            {
+                "answer": "PageRank gives more weight to pages with the most keyboards and links.",
+                "correct": false,
+            },
+            {
+                "answer": "Google derives most of its revenue from advertising.",
+                "correct": true,
+            },
+            {
+                "answer": "Companies such as Google now have a higher market capitalization than traditional companies such as General Electric.",
+                "correct": true,
+            },
+        ]
+    },
+    {
         "question": "Problem 2 - Which of the following statements about files are true?",
         "type": "many_choice",
         "answers": [
