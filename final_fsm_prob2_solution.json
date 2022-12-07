@@ -1,6 +1,6 @@
 [
 	{
-		"question": "Solution States (with next state included to provide assistance with studies:",
+		"question": "Solution States (with next state included to provide assistance with studies:)",
 		"code": "Out0\tOut1\tNextState\n1\t1\tq2\n0\t0\tq2\n1\t0\tq4\n0\t1\tq3\n1\t1\tq4\n0\t1\tq1\n1\t1\tq1\n1\t0\tq3\n0\t1\tq2\n",
     }
 ]
