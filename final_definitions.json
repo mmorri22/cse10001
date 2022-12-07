@@ -130,6 +130,62 @@
         ]
     },
     {
+        "question": "Problem 2 - Which of the following statements about networking technology are true (select all that apply)?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Ethernet uses a variable backoff strategy to handle contention.",
+                "correct": false,
+            },
+            {
+                "answer": "The telephone system still carries mostly analog voice signals.",
+                "correct": false,
+            },
+            {
+                "answer": "DSL sends data using the coaxial cable used for television services.",
+                "correct": false,
+            },
+            {
+                "answer": "Wireless signals are not hampered by metal walls or concrete floors.",
+                "correct": false,
+            },
+            {
+                "answer": "In a cable network, all data bandwidth is shared among users of the cable.",
+                "correct": true,
+            },
+            {
+                "answer": "A modem converts data from one form into another (and vice versa).",
+                "correct": true,
+            },
+            {
+                "answer": "Each cell phone has an IMEI which it broadcasts when turned on.",
+                "correct": true,
+            },
+        ]
+    },
+    {
+        "question": "Problem 3 - Which of the following statements regarding the requests module is true (select all that apply)?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "To access the content of the response object as a string, we can do response.text.",
+                "correct": false,
+            },
+            {
+                "answer": "The requests.get function takes a string of a URL to download.",
+                "correct": false,
+            },
+            {
+                "answer": "The requests.get function always succeeds.",
+                "correct": false,
+            },
+            {
+                "answer": "XXXXX.",
+                "correct": false,
+            },
+        ]
+    },
+    {
         "question": "Problem 1 - Which of the following statements are true?",
         "type": "many_choice",
         "answers": [
