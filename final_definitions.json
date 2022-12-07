@@ -470,7 +470,7 @@
                 "correct": false,
             },
             {
-                "answer": "< em >< /em >",
+                "answer": "< b >< /b >",
                 "correct": false,
             },
         ]
@@ -500,7 +500,7 @@
                 "correct": false,
             },
             {
-                "answer": "< em >< /em >",
+                "answer": "< b >< /b >",
                 "correct": false,
             },
         ]
@@ -530,7 +530,7 @@
                 "correct": false,
             },
             {
-                "answer": "< em >< /em >",
+                "answer": "< b >< /b >",
                 "correct": false,
             },
         ]
@@ -560,7 +560,7 @@
                 "correct": false,
             },
             {
-                "answer": "< em >< /em >",
+                "answer": "< b >< /b >",
                 "correct": false,
             },
         ]
@@ -590,7 +590,7 @@
                 "correct": true,
             },
             {
-                "answer": "< em >< /em >",
+                "answer": "< b >< /b >",
                 "correct": false,
             },
         ]
@@ -620,7 +620,7 @@
                 "correct": false,
             },
             {
-                "answer": "< em >< /em >",
+                "answer": "< b >< /b >",
                 "correct": true,
             },
         ]
